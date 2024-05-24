@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav {
+  background: linear-gradient(to right, white , transparent);
+}
+
+/* .container {
+    position: relative;
+    top: 80px;
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px dashed #000;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    background-color: rgb(200, 200, 200) ;
+    transition: all 0.5s 1ms;
+    transform: scale(1.1);
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .box p {
+    font-size: 12px;
+  }
+   */
+
+
+
+
+
+
+
+svg {
+    width: 18px;
+}
+
+
+
+@media (max-width: 767px) {
+   section {
+  background-attachment: scroll; 
+      }
+      .slogan {
+        font-size: 50px;
+      }
+      .searchBar {
+        width: 60%;
+        position: absolute;
+        right: 0;
+        transform: translateY(-60%);
+      }
+      /* .label{
+        left: 200px;
+        position: relative;
+        left: 170px;
+        bottom: 20px;
+      } */
+   
+    
+}
+  /* Styles for desktop devices */
+
+.wrapper svg {
+    width:24px;
+    height:24px;
+}
